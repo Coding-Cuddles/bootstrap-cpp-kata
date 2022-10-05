@@ -1,0 +1,3 @@
+/home/runner/bootstrap-cpp-kata/build/CMakeFiles/rebuild_cache.dir
+/home/runner/bootstrap-cpp-kata/build/CMakeFiles/edit_cache.dir
+/home/runner/bootstrap-cpp-kata/build/CMakeFiles/main.dir

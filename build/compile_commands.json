@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/runner/bootstrap-cpp-kata/build",
+  "command": "/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/g++ -g -std=gnu++17 -o CMakeFiles/main.dir/main.cpp.o -c /home/runner/bootstrap-cpp-kata/main.cpp",
+  "file": "/home/runner/bootstrap-cpp-kata/main.cpp"
+}
+]
