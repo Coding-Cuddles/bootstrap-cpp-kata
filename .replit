@@ -1,0 +1,9 @@
+compile = "chmod +x ./build.sh && ./build.sh"
+run = "./build/main"
+hidden = ["cmake-build-*/**", ".ccls-cache"]
+
+[languages.cpp]
+pattern = "**/*.{cpp,h}"
+
+[languages.cpp.languageServer]
+start = "ccls"
