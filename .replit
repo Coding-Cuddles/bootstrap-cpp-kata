@@ -1,6 +1,7 @@
-compile = "chmod +x ./build.sh && ./build.sh"
-run = "./build/main"
-hidden = ["cmake-build-*/**", ".ccls-cache"]
+compile = "make -s configure"
+run = "make build"
+entrypoint = "test_something.cpp"
+hidden = ["build", ".gitignore", "poetry.lock"]
 
 [nix]
 channel = "stable-21_11"

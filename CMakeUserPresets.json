@@ -1,0 +1,9 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "/home/runner/bootstrap-cpp-kata-3/build/CMakePresets.json"
+    ]
+}

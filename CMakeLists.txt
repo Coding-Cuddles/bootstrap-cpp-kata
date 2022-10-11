@@ -1,10 +1,9 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.19)
 project(bootstrap-cpp-kata CXX)
-
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(CMAKE_CXX_STANDARD 17)
+enable_testing()
 
 find_package(GTest)
 
-add_executable(main main.cpp)
-target_link_libraries(main GTest::gtest)
+add_executable(test_something test_something.cpp)
+add_test(test_something test_something)
+target_link_libraries(test_something PRIVATE GTest::gmock GTest::gmock_main)
