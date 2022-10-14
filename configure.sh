@@ -2,7 +2,5 @@
 
 set -ex
 
-poetry install
-. $(poetry env info --path)/bin/activate
-conan config init
-conan profile update settings.compiler.libcxx=libstdc++11 default
+poetry install --no-root
+poetry run conan config install https://github.com/klimkin/conan-config-replit.git

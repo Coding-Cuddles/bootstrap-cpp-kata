@@ -1,4 +1,4 @@
-compile = "make -s configure"
+compile = "make configure"
 run = "make build"
 entrypoint = "test_something.cpp"
 language = "cpp"

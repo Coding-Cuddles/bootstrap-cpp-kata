@@ -1,8 +1,7 @@
 #!/bin/sh
 
-. $(poetry env info --path)/bin/activate
-
 set -ex
 
-conan install . --install-folder=build -pr:b=default -s build_type=Debug --build=missing
-cmake --preset debug
+mkdir -p build && cd build
+poetry run conan install .. -pr:b=default -s build_type=Debug --build=missing
+poetry run conan build ..

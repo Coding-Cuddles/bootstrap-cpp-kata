@@ -1,14 +1,11 @@
 from functools import cached_property
 
-from conan import ConanFile
-from conan.tools.cmake import CMake
+from conans import ConanFile, CMake
 
 
 class BootstrapCppKataConan(ConanFile):
     name = "bootstrap-cpp-kata"
     settings = "os", "compiler", "build_type", "arch"
-    #options = {"shared": [True, False], "fPIC": [True, False]}
-    #default_options = {"shared": False, "fPIC": True}
     generators = "CMakeToolchain", "CMakeDeps"
 
     @cached_property

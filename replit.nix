@@ -1,8 +1,9 @@
 { pkgs }: {
     deps = [
-        pkgs.poetry
+        pkgs.ccls
+        pkgs.clang_12      
         pkgs.cmake
         pkgs.ninja
-        pkgs.ccls
+        pkgs.poetry
     ];
 }
