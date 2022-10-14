@@ -1,6 +1,7 @@
 compile = "make -s configure"
 run = "make build"
 entrypoint = "test_something.cpp"
+language = "cpp"
 hidden = ["build", ".gitignore", ".ccls-cache",  "poetry.lock"]
 
 [gitHubImport]
