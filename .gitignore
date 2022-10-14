@@ -2,6 +2,7 @@
 *.d
 .ccls-cache
 build*
+CMakeUserPresets.json
 
 # Compiled Object files
 *.slo

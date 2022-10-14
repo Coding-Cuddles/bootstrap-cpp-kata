@@ -54,7 +54,7 @@ name = "g++ - Build and debug active file"
 program = "./main-debug"
 request = "launch"
 setupCommands = [
-	{ description = "Enable pretty-printing for gdb", ignoreFailures = true, text = "-enable-pretty-printing" }
+    { description = "Enable pretty-printing for gdb", ignoreFailures = true, text = "-enable-pretty-printing" }
 ]
 stopAtEntry = false
 type = "cppdbg"
