@@ -1,7 +1,10 @@
 compile = "make -s configure"
 run = "make build"
 entrypoint = "test_something.cpp"
-hidden = ["build", ".gitignore", "poetry.lock"]
+hidden = ["build", ".gitignore", ".ccls-cache",  "poetry.lock"]
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix", ".ccls-cache"]
 
 [nix]
 channel = "stable-21_11"
@@ -10,7 +13,7 @@ channel = "stable-21_11"
 support = true
 
 [debugger.compile]
-command = ["make", "main-debug"]
+command = ["make"]
 noFileArgs = true
 
 [debugger.interactive]
@@ -41,18 +44,25 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 MIMode = "gdb"
+arg = []
 cwd = "."
+environment = []
 externalConsole = false
+logging = {}
 miDebuggerPath = "gdb"
 name = "g++ - Build and debug active file"
 program = "./main-debug"
 request = "launch"
+setupCommands = [
+	{ description = "Enable pretty-printing for gdb", ignoreFailures = true, text = "-enable-pretty-printing" }
+]
 stopAtEntry = false
 type = "cppdbg"
 
-[debugger.interactive.launchMessage.arguments.logging]
+[languages]
 
-[[debugger.interactive.launchMessage.arguments.setupCommands]]
-description = "Enable pretty-printing for gdb"
-ignoreFailures = true
-text = "-enable-pretty-printing"
+[languages.cpp]
+pattern = "**/*.{cpp,h}"
+
+[languages.cpp.languageServer]
+start = "ccls"
