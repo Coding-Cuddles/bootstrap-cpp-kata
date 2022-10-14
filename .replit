@@ -5,7 +5,7 @@ language = "cpp"
 hidden = ["build", ".gitignore", ".ccls-cache",  "poetry.lock"]
 
 [gitHubImport]
-requiredFiles = [".replit", "replit.nix", ".ccls-cache"]
+requiredFiles = [".replit", "replit.nix"]
 
 [nix]
 channel = "stable-21_11"

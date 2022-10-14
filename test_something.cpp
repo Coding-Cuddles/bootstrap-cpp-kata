@@ -2,5 +2,5 @@
 
 TEST(Something, SomethingPass)
 {
-  EXPECT_TRUE(true);
+    EXPECT_TRUE(true);
 }
