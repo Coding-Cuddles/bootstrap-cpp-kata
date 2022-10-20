@@ -1,12 +1,13 @@
 all: build
 
-.PHONY: configure
-configure:
-	./configure.sh
-
 .PHONY: build
 build:
-	./build.sh
+	cmake -B build -G Ninja .
+	cmake --build build
+
+.PHONY: test
+test:
+	ctest --test-dir build
 
 .PHONY: clean
 clean:

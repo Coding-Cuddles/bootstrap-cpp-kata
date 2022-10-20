@@ -1,9 +1,0 @@
-[tool.poetry]
-name = "bootstrap-cpp-kata"
-version = "1.0.0"
-description = "Bootstrap repository for clean code katas in C++"
-authors = ["Yury Bayda <yury@bayda.pro>"]
-
-[tool.poetry.dependencies]
-python = "^3.9"
-conan = "^1.53.0"
