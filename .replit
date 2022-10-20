@@ -2,15 +2,13 @@ compile = "make"
 run = "make test"
 entrypoint = "test_something.cpp"
 language = "cpp"
-hidden = [".gitignore", ".git", ".ccls-cache", "build", "Makefile"]
+hidden = [".gitignore", ".git", ".ccls-cache", ".clang-format", "build", "Makefile"]
 
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix"]
 
 [nix]
 channel = "stable-21_11"
-
-[languages]
 
 [languages.cpp]
 pattern = "**/*.{cpp,h}"

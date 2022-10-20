@@ -11,18 +11,18 @@ and it will handle all dependencies.
 
 ### Prerequisites
 
-* [Poetry](https://python-poetry.org)
 * [CMake 3.19+](https://cmake.org)
 * [Ninja](https://ninja-build.org)
+* [GTest](https://github.com/google/googletest)
 
-### Configure and install dependencies
-
-```console
-make configure
-```
-
-### Build and run tests
+### Build
 
 ```console
 make
+```
+
+### Run tests
+
+```console
+make test
 ```
