@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/runner/bootstrap-cpp-kata-1/build",
+  "command": "clang++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -o CMakeFiles/test_something.dir/test_something.cpp.o -c /home/runner/bootstrap-cpp-kata-1/test_something.cpp",
+  "file": "/home/runner/bootstrap-cpp-kata-1/test_something.cpp"
+}
+]

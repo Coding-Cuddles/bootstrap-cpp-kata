@@ -7,7 +7,7 @@ build:
 
 .PHONY: test
 test:
-	ctest --test-dir build
+	ctest --output-on-failure --test-dir build
 
 .PHONY: clean
 clean:
