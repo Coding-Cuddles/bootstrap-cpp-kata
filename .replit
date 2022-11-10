@@ -1,7 +1,7 @@
 compile = "make"
 run = "make test"
 entrypoint = "test_something.cpp"
-language = "cpp"
+language = "c++"
 hidden = [".gitignore", "compile_commands.json", ".git", ".ccls-cache", ".clang-format", "build", "Makefile"]
 
 [gitHubImport]
