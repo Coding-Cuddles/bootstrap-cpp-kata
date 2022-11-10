@@ -1,14 +1,16 @@
 all: build
 
+BUILDDIR ?= /tmp/build
+
 .PHONY: build
 build:
-	cmake -B build -G Ninja .
-	cmake --build build
+	cmake -B ${BUILDDIR} -G Ninja .
+	cmake --build ${BUILDDIR}
 
 .PHONY: test
 test:
-	ctest --output-on-failure --test-dir build
+	GTEST_COLOR=1 ctest --output-on-failure --test-dir ${BUILDDIR}
 
 .PHONY: clean
 clean:
-	rm -rf build
+	rm -rf ${BUILDDIR}
