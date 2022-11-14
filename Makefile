@@ -4,7 +4,7 @@ BUILDDIR ?= /tmp/build
 
 .PHONY: build
 build:
-	cmake -B ${BUILDDIR} -G Ninja .
+	CXX=clang++ cmake -B ${BUILDDIR} -G Ninja .
 	cmake --build ${BUILDDIR}
 
 .PHONY: test
