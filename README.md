@@ -1,6 +1,6 @@
 # Bootstrap for C++ katas
 
-[![Run on Replit](https://replit.com/badge/github/megabyde/bootstrap-cpp-kata)](https://replit.com/new/github/megabyde/bootstrap-cpp-kata)
+[![Run on Replit](https://replit.com/badge/github/Coding-Cuddles/bootstrap-cpp-kata)](https://replit.com/new/github/Coding-Cuddles/bootstrap-cpp-kata)
 
 ## Overview
 
