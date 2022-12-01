@@ -4,11 +4,11 @@
 
 ## Overview
 
-This is a bootstrap repository for clean code katas in C++17.
+This is a bootstrap repository for clean code katas in C++17 using GTest.
 
 ## Usage
 
-You can import this project into [Replit](https://replit.com)
+You can import this project into [Replit](https://replit.com),
 and it will handle all dependencies automatically.
 
 ### Prerequisites
@@ -21,6 +21,12 @@ and it will handle all dependencies automatically.
 
 ```console
 make
+```
+
+### Run main
+
+```console
+make run
 ```
 
 ### Run tests
