@@ -1,6 +1,7 @@
 # Bootstrap for C++ katas
 
-[![Run on Replit](https://replit.com/badge/github/Coding-Cuddles/bootstrap-cpp-kata)](https://replit.com/new/github/Coding-Cuddles/bootstrap-cpp-kata)
+[![CI](https://github.com/Coding-Cuddles/bootstrap-cpp-kata/actions/workflows/main.yml/badge.svg)](https://github.com/Coding-Cuddles/bootstrap-cpp-kata/actions/workflows/main.yml)
+[![Replit](https://replit.com/badge?caption=Try%20with%20Replit&variant=small)](https://replit.com/new/github/Coding-Cuddles/bootstrap-cpp-kata)
 
 ## Overview
 
