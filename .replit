@@ -1,8 +1,8 @@
-compile = ["make"]
+compile = ["make", "build"]
 run = ["make", "test"]
 entrypoint = "main.cpp"
 language = "c++"
-hidden = ["LICENSE", "CMakeLists.txt", "Makefile", ".gitignore", ".clang-format", "compile_commands.json", ".ccls-cache"]
+hidden = ["LICENSE", "CMakeLists.txt", "Makefile", ".gitignore", ".clang-format", "compile_commands.json", ".ccls-cache", "build"]
 
 [nix]
 channel = "stable-21_11"
