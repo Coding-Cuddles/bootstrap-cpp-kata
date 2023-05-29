@@ -11,6 +11,7 @@ AlignConsecutiveDeclarations: true
 AllowShortFunctionsOnASingleLine: Inline
 AlwaysBreakAfterDefinitionReturnType: TopLevel
 AlwaysBreakTemplateDeclarations: false
+BinPackArguments: false
 BreakBeforeBraces: Stroustrup
 ColumnLimit: 100
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
