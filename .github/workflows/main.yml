@@ -24,15 +24,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install Ninja, GTest, and GMock
+      - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install \
             google-mock \
             googletest \
             libgmock-dev \
-            libgtest-dev \
-            ninja-build
+            libgtest-dev
 
       - name: Build
         run: make build
