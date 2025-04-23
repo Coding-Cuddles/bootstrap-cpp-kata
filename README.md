@@ -15,7 +15,6 @@ handle all dependencies automatically.
 ### Prerequisites
 
 * [CMake 3.19+](https://cmake.org)
-* [Ninja](https://ninja-build.org)
 * [GTest](https://github.com/google/googletest)
 
 ### Build
