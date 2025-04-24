@@ -1,10 +1,8 @@
-#include <string>
-
 #include <gmock/gmock.h>
 
-TEST(Something, SomethingPass)
+TEST(SomethingTest, BasicAssertions)
 {
-    std::string value{"foo"};
     EXPECT_TRUE(true);
-    EXPECT_EQ(value, "foo");
+    EXPECT_STRNE("hello", "world");
+    EXPECT_EQ(7 * 6, 42);
 }

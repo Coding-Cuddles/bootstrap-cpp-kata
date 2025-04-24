@@ -1,8 +1,5 @@
 all: build test
 
-export CXX := clang++
-export GTEST_COLOR := 1
-
 BUILDDIR ?= build
 SRCS := $(shell git ls-files *.cpp *.h)
 
