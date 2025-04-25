@@ -1,4 +1,4 @@
-# Bootstrap for C++ katas
+# Bootstrap for C++ coding kata
 
 [![CI](https://github.com/Coding-Cuddles/bootstrap-cpp-kata/actions/workflows/main.yml/badge.svg)](https://github.com/Coding-Cuddles/bootstrap-cpp-kata/actions/workflows/main.yml)
 [![Replit](https://img.shields.io/badge/Try%20with%20Replit-black?logo=replit)](https://replit.com/new/github/Coding-Cuddles/bootstrap-cpp-kata)
@@ -14,8 +14,9 @@ handle all dependencies automatically.
 
 ### Prerequisites
 
-* [CMake 3.19+](https://cmake.org)
-* [GTest](https://github.com/google/googletest)
+- A compatible C++ compiler that supports at least C++17
+- [CMake](https://cmake.org)
+- [GoogleTest](https://github.com/google/googletest)
 
 ### Build
 
