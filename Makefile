@@ -8,10 +8,6 @@ build:
 	cmake -B ${BUILDDIR} .
 	cmake --build ${BUILDDIR}
 
-.PHONY: run
-run:
-	cd ${BUILDDIR} && ./main
-
 .PHONY: test
 test:
 	ctest --output-on-failure --test-dir ${BUILDDIR}
