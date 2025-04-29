@@ -15,8 +15,6 @@ include(GoogleTest)
 
 enable_testing()
 
-add_executable(main main.cpp)
-
 file(GLOB tests test_*.cpp)
 foreach(test ${tests})
     get_filename_component(name ${test} NAME_WE)
