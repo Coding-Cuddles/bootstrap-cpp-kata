@@ -24,12 +24,6 @@ handle all dependencies automatically.
 make build
 ```
 
-### Run main
-
-```console
-make run
-```
-
 ### Run tests
 
 ```console
