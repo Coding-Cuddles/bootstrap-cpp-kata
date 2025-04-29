@@ -20,12 +20,6 @@ This is a bootstrap repository for clean code katas in C++17 using GoogleTest.
 make build
 ```
 
-### Run main
-
-```console
-make run
-```
-
 ### Run tests
 
 ```console
