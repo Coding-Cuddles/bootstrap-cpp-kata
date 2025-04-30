@@ -23,7 +23,7 @@ format-check:
 
 .PHONY: clean
 clean:
-	rm -rf ${BUILDDIR}
+	git clean -Xfd
 
 ifndef VERBOSE
 .SILENT:
