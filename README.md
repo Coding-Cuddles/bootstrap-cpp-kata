@@ -88,6 +88,7 @@ terminal.
 | Command             | Result                                    |
 | ------------------- | ----------------------------------------- |
 | `make all`          | Build and run the test suite              |
+| `make help`         | Show the Make command reference           |
 | `make build`        | Configure and build without running tests |
 | `make test`         | Build and run the test suite              |
 | `make format`       | Format tracked C++ and header files       |
